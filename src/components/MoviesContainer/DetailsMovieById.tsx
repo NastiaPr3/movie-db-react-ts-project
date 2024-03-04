@@ -50,7 +50,7 @@ const DetailsMovieById: FC<IProps> = ({movById}) => {
             const sortedCast = cas.sort((a, b) => a.cast_id - b.cast_id).slice(1, 11);
             setPeople(sortedCast);
         })
-    }, []);
+    }, [id]);
 
     rating = vote_average;
     handleRatingChange();
@@ -127,7 +127,7 @@ const DetailsMovieById: FC<IProps> = ({movById}) => {
                     <h2>Cast:</h2>
                     <div className={css.Cast}>
                         {
-                            people.map(hum => <img src={`https://image.tmdb.org/t/p/w500${hum.profile_path}`} alt=""
+                            people.map(hum => <img src={`https://image.tmdb.org/t/p/w500${hum.profile_path}`} alt="img"
                                                    className={css.Circle}></img>)
                         }
                     </div>

@@ -27,7 +27,7 @@ const MovieById = () => {
             })
         }
 
-    }, [trigger]);
+    }, [trigger, state.id]);
 
 
     return (

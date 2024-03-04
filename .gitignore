@@ -21,3 +21,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+.idea
+movie-db-react-ts-project.iml
+package-lock.json

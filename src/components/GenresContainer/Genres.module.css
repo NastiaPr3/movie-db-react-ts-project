@@ -1,0 +1,45 @@
+.Genres {
+    width: 100%;
+    justify-content: center;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lightBackground {
+    background-color: #c7aa71;
+}
+
+.darkBackground {
+    background-color: #161202;
+}
+
+.Linker button {
+    width: 150px;
+    height: 50px;
+    color: wheat;
+    border: 1px solid white;
+    border-radius: 99%;
+    transition: 0.5s;
+}
+
+.Linker button:hover {
+    color: #dca740;
+    border: 1px solid #dca740;
+    transition: 0.5s;
+}
+
+.LightLinker button {
+    width: 150px;
+    height: 50px;
+    color: wheat;
+    border: 1px solid white;
+    border-radius: 99%;
+    transition: 0.5s;
+}
+
+.LightLinker button:hover {
+    color: #795917;
+    border: 1px solid #795917;
+    transition: 0.5s;
+}

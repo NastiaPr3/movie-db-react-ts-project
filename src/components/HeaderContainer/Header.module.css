@@ -1,0 +1,156 @@
+.Header {
+    width: 100%;
+    height: 65px;
+    background: #161202;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lightBackground {
+    background-color: #c7aa71;
+}
+
+.darkBackground {
+    background-color: #161202;
+}
+
+.MainLink {
+    font-size: 30px;
+    text-decoration: none;
+    color: wheat;
+    transition: 0.5s;
+}
+
+.LightLink {
+    font-size: 30px;
+    text-decoration: none;
+    color: wheat;
+    transition: 0.5s;
+}
+
+.MainLink:hover {
+    color: #dca740;
+    transition: 0.5s;
+}
+
+.LightLink:hover {
+    color: #795917;
+    transition: 0.5s;
+}
+
+.Form_and_Button {
+    display: flex;
+    position: relative;
+    left: 450px;
+}
+
+.Language {
+    background-color: #a08e6b;
+    color: wheat;
+}
+
+.Language:hover {
+    color: #dca740;
+}
+
+.SearchButton {
+    background-color: #a08e6b;
+    color: wheat;
+    margin-right: 10px;
+}
+
+.SearchButton:hover {
+    color: #dca740;
+}
+
+.Input::placeholder {
+    color: #c88a0a;
+}
+
+input{
+    background-color: #d5c39e;
+    border-radius: 5px;
+}
+
+.LinkDiv {
+    position: relative;
+    left: 160px;
+}
+
+.Icon {
+    width: 40px;
+    height: 40px;
+}
+
+.UserDiv {
+    position: relative;
+    left: 510px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.UserDiv p {
+    color: wheat;
+    font-size: 10px;
+}
+
+.Container {
+    display: inline-block;
+    position: absolute;
+    left: 100px;
+}
+
+.Switch {
+    position: relative;
+    display: inline-block;
+    width: 85px;
+    height: 34px;
+    border-radius: 34px;
+    background-color: #D5C39E;
+}
+
+.Switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.Slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    transition: background-color 0.4s;
+    border-radius: 34px;
+}
+
+.Slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: #A08E6B;
+    transition: transform 0.4s;
+    border-radius: 50%;
+}
+
+.Switch input:checked + .Slider {
+    transform: translateX(26px);
+}
+
+.Switch input:checked + .Slider:before {
+    transform: translateX(26px);
+    background-color: #ffffff;
+}
+
+
+
+
+
+
+

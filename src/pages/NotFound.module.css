@@ -1,0 +1,11 @@
+.NotFound {
+    background-image: linear-gradient(to top, #811320, #601f0a, #422000, #2a1b00, #161202);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    color: wheat;
+}

@@ -1,0 +1,7 @@
+.darkBackground {
+    background-image: linear-gradient(to top, #3a2d0d, #30260b, #272009, #1e1906, #161202);
+}
+
+.lightBackground {
+    background-image: linear-gradient(to bottom, #c7aa71, #a48e5d, #82734a, #635938, #464027);
+}

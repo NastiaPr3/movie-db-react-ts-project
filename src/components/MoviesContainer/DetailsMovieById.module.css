@@ -1,0 +1,87 @@
+.DetailsMovieById {
+    margin-top: 100px;
+    display: flex;
+}
+
+.Head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+    width: 500px;
+    height: 700px;
+}
+
+.Main {
+    opacity: 0.90;
+    width: 1000px;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.lightBackground {
+    background-color: #826a39;
+}
+
+.darkBackground {
+    background-color: #3A2D0D;
+}
+
+.Main p {
+    color: white;
+}
+
+.Main h2 {
+    color: wheat;
+}
+
+.Circle {
+    border-radius: 50%;
+    object-fit: cover;
+    height: 100px;
+    width: 100px;
+}
+
+.CastDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.Cast {
+    width: 600px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+}
+
+.Head img {
+    width: 350px;
+    height: 500px;
+}
+
+.GenresDiv {
+    display: flex;
+}
+
+.GenresDiv p {
+    margin-right: 10px;
+}
+
+.Btn {
+    color: wheat;
+    position: relative;
+    right: 200px;
+font-size: 30px;
+}
+
+.Badges {
+    cursor: pointer;
+}
